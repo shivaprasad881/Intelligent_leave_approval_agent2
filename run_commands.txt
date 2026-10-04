@@ -1,0 +1,24 @@
+ 1. Start SQLite
+
+ cd C:\Users\errir\OneDrive\Desktop\intellidesk_openai_hr_employee\intellidesk\storage
+sqlite3 business.db
+
+
+
+
+ 2. Start the Frontend
+
+cd C:\Users\errir\OneDrive\Desktop\intellidesk_openai_hr_employee\frontend
+npm run dev
+
+
+
+
+ 3. Start the Backend (FastAPI)
+
+ cd C:\Users\errir\OneDrive\Desktop\intellidesk_openai_hr_employee\intellidesk
+.\.venv\Scripts\Activate.ps1
+uvicorn src.api.main:app --reload --port 8000
+
+
+create a 2 day sick leave request starting from tommorrow
